@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TungstenBlog.Web", "Tungste
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TungstenBlog.Tests", "TungstenBlog.Tests\TungstenBlog.Tests.csproj", "{BDCDFB5B-0732-401F-94B0-6C5032111EE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThugstenBlog.Service", "ThugstenBlog.Service\ThugstenBlog.Service.csproj", "{5ACD780A-86AE-44BB-ABCB-8F024BC3C315}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BDCDFB5B-0732-401F-94B0-6C5032111EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDCDFB5B-0732-401F-94B0-6C5032111EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDCDFB5B-0732-401F-94B0-6C5032111EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ACD780A-86AE-44BB-ABCB-8F024BC3C315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ACD780A-86AE-44BB-ABCB-8F024BC3C315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ACD780A-86AE-44BB-ABCB-8F024BC3C315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ACD780A-86AE-44BB-ABCB-8F024BC3C315}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
