@@ -1,0 +1,24 @@
+﻿@model IEnumerable<TungstenBlog.DTO.ArticleDTO>
+
+
+
+@foreach (var item in Model)
+{
+    <div class="card col-sm-4">
+    <img class="img-responsive card-img-top" src="@Html.DisplayFor(modelItem => item.Enclosure.Url)" alt="No Image" />
+    <div class="card-body">
+        <h3 class="card-title">@Html.DisplayFor(modelItem => item.Title)</h3>
+        <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
+        <p class="card-text">@Html.DisplayFor(modelItem => item.PubDate)</p>
+        <p class="card-text">
+            @foreach (var category in item.Categories)
+            {
+            <p class="card-text">
+                @Html.DisplayFor(modelItem => category)
+            </p>
+                }
+            <a href="@Html.DisplayFor(modelItem => item.Guid)" class="btn btn-primary">Read More...</a>
+            <br />
+        </div>
+    </div>
+}

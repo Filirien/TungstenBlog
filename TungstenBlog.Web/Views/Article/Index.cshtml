@@ -1,0 +1,23 @@
+﻿@model IEnumerable<TungstenBlog.DTO.ArticleDTO>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+<a id="button" class="btn btn-info pull-right">Refresh articles</a>
+<br />
+<br />
+<div id="article-container" class="container-fluid">
+    <div class="row equal">
+    </div>
+</div>
+
+<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+        asp-fallback-src="~/script/jquery.min.js"
+        asp-fallback-test="window.jQuery"
+        crossorigin="anonymous"
+        integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+</script>
+
+<script src="~/Scripts/articles-loader.js"></script>
